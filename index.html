@@ -13,17 +13,31 @@
 
 </head>
 <body>
+<div class="container">
     <!--Where buttons where be placed-->
-    <div id="bPlace"></div>
-    <!--pieces necessary to receive input and create new buttons-->
-    <form id="bForm">
-        <label for="bInput">Enter your request</label>
-        <input type="text" id="bInput"><br>
-
-        <input id="b-add" type="submit" value="Add a category">
-    </form>
+    <div class="row">
+        <div id="bPlace"></div>
+    </div> 
+        <!--pieces necessary to receive input and create new buttons-->
     <br>
-    <br>
+    <div class="row">
+        <div class="col-sm-7">
+        </div>
+        <div class="col-sm-5">
+            <div class="card" style="width: 18rem;">
+                <form id="bForm">
+                    <div class="form-group">
+                        <label class="mr-2" for="bInput">Enter your request</label>
+                        <input type="text" id="bInput"><br>
+                        <input id="b-add" type="submit" value="Add a category">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+        <br>
+        <br>
     <div id="gifPlace"></div>
+</div>
 </body>
 </html>

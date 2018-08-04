@@ -6,7 +6,7 @@ $(document).ready(function() {
         $("#bPlace").empty();
         bCount = 0;
         for (var i = 0; i < gifCats.length; i++) {
-            var bId = $("<button>" + gifCats[i] + "</button>").addClass("bButton").attr("data-bcount", bCount).attr("id", "item-" + bCount).val(gifCats[i]);
+            var bId = $("<button>" + gifCats[i] + "</button>").addClass("bButton m-2").attr("data-bcount", bCount).attr("id", "item-" + bCount).val(gifCats[i]);
             $("#bPlace").append(bId);
             bCount++;
             console.log(bId.val());
