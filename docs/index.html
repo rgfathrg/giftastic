@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Giftastic</title>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/script.js"></script>
+    <link ref="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body style="background-image: url('https://wallpapersite.com/images/wallpapers/mountains-2560x1440-morning-foggy-huawei-mate-10-stock-hd-10523.jpg'); background-size: cover">
+<div class="container">
+    <!--Where buttons where be placed-->
+    <div class="row">
+        <div id="bPlace"></div>
+    </div> 
+        <!--pieces necessary to receive input and create new buttons-->
+    <br>
+    <div class="row">
+        <div class="col-sm-7">
+        </div>
+        <div class="col-sm-5">
+            <div class="card" style="width: 18rem;">
+                <form id="bForm" style="background-color: #e6e6ff">
+                    <div class="form-group">
+                        <label class="mr-2" for="bInput">Enter your request</label>
+                        <input type="text" id="bInput"><br>
+                        <input id="b-add" type="submit" value="Add a category">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+        <br>
+        <br>
+    <div class="row">
+        <div id="gifPlace" style="align-content: center"></div>
+    </div>
+</div>
+</body>
+</html>
